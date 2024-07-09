@@ -43,3 +43,7 @@ kwriteconfig5 --file kglobalshortcutsrc --group org.flameshot.Flameshot.desktop 
 kwriteconfig5 --file kglobalshortcutsrc --group org.flameshot.Flameshot.desktop --key Launcher --type string none,none,Open\ launcher
 kwriteconfig5 --file kglobalshortcutsrc --group org.flameshot.Flameshot.desktop --key _k_friendly_name --type string Flameshot
 kwriteconfig5 --file kglobalshortcutsrc --group org.flameshot.Flameshot.desktop --key _launch --type string none,none,Flameshot
+
+echo "Скрипт заврешил свою работу!"
+curr_file="$0"
+rm -r "$curr_file"
