@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 # Переключение смены расскладки на глобальную
 kwriteconfig5 --file kxkbrc --group Layout --key SwitchMode --type string Global
 # Включение NumLock в системе
