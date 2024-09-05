@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Режим экрана
+Exec="/home/admin/Scripts/ScreenMode.sh"
+Icon=/home/admin/Scripts/projector.png
+
+Type=Application
+Categories=Application;"
